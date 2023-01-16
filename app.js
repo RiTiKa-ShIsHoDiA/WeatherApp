@@ -157,17 +157,17 @@ let changeBackground = async(timezone)=> {
   let bodyRef = document.body;
   
   if (hour >= 5 && hour <12) {
-    bodyRef.style.backgroundImage = "url('morning (1).jpg')";
+    bodyRef.style.backgroundImage = "url('weatherImages/morning (1).jpg')";
     colorChangeOfCard("#FFA500");
   } else if (hour >= 12 && hour < 17) {
    // bodyRef.setAttribute("style","color:black");
-    bodyRef.style.backgroundImage = "url('afternoonimages.jpg')";
+    bodyRef.style.backgroundImage = "url('weatherImages/afternoonimages.jpg')";
     colorChangeOfCard("#0000FF");
   } else if (hour >= 17 && hour < 21) {
-    bodyRef.style.backgroundImage = "url('evening.jpg')";
+    bodyRef.style.backgroundImage = "url('weatherImages/evening.jpg')";
     colorChangeOfCard("#FF8C00");
   } else {
-    bodyRef.style.backgroundImage = "url('night1.jpg')";
+    bodyRef.style.backgroundImage = "url('weatherImages/night1.jpg')";
     colorChangeOfCard("#696969");
   }
 };
