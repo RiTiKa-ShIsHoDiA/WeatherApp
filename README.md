@@ -6,3 +6,5 @@
              📌 moment library of js :- 📎 https://momentjs.com/ <br>
              📌 sweet alert library of js :- 📎 https://sweetalert2.github.io/#examples
 
+📌 Screenshots :- weather app look like 👇 <br><br>
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/122371758/213276801-46cce4e4-6939-4828-b726-e7231c9d643c.png"/>
